@@ -1,0 +1,15 @@
+#main{
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.hijos:nth-child(even) img{
+   order: 2; 
+    background-color: aqua!important;
+}
+
+.hijos:nth-child(odd)p{
+    order:1
+}
