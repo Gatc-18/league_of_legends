@@ -4,12 +4,14 @@
     height: 100vh;
 }
 
-
-.hijos:nth-child(even) img{
-   order: 2; 
-    background-color: aqua!important;
+.hijos{
+    display: flex!important;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px
 }
 
-.hijos:nth-child(odd)p{
-    order:1
+
+.hijos:nth-child(even)> p{
+  order: -1
 }
