@@ -13,8 +13,21 @@
 <body>
 
     <div id="containerNav"></div>
-    <h1>Experiencias</h1>
 
+    <form id='formulario'>
+        <div class="form-group m-5">
+
+            <input id="name" text="text" class="form-control m-2" placeholder="nombre" required/>
+            <input id='age' text="number" class="form-control m-2" placeholder="edad" required/>
+            <textarea class="form-control m-2" placeholder="Cuentanos tu experiencia aquí"
+                id="floatingTextarea" required></textarea>
+            <button type="submit" class="btn d-flex m-auto btn-outline-primary" >Enviar</button>
+        </div>
+    </form>
+
+    <section id="containerExperiences" class="m-5">
+       
+    </section>
 
     <script src="../scripts/experience.js" type="module"></script>
 </body>

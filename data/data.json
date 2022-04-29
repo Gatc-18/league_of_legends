@@ -1,101 +1,120 @@
 {
-    "personajes": [
-        {
-            "id": 0,
-            "name": "ASHE",
-            "img": "../img/Ashe_Render.webp",
-            "description": "Ashe dispara un proyectil de hielo en línea recta. Si la flecha impacta contra un campeón enemigo, le inflige daño y aturde según la distancia que haya recorrido la flecha. Además, las unidades enemigas circundantes reciben daño y se ralentizan.",
-            "cover": "../img/Ashe_0.jpg"
-        },
-        {
-            "id": 1,
-            "name": "APHELIOS",
-            "img": "../img/Aphelios_Render.webp",
-            "description": "Aphelios tiene acceso a un arsenal de 5 Armas de Piedra Lunar, creadas por su hermana Alune. Equipa dos armas a la vez, una como su arma principal y otra como su arma secundaria. Cada arma tiene un ataque básico único y un efecto pasivo. Crescendum en cola en la reserva.",
-            "cover": "../img/Aphelios.jpg"
-        },
-        {
-            "id": 2,
-            "name": "AZIR",
-            "img": "../img/Azir_Render.webp",
-            "description": "Azir, emperador de Shurima en un pasado remoto, fue un hombre orgulloso que estuvo a punto de alcanzar la inmortalidad. Dominado por la arrogancia, fue traicionado y asesinado en la hora de su mayor triunfo. Pero ahora, milenios después, renació como un ser Ascendido de inmenso poder.",
-            "cover": "../img/Azir.jpg"
-        },
-        {
-            "id": 3,
-            "name": "BARDO",
-            "img": "../img/Bard_Render.webp",
-            "description": "Bardo dispara un proyectil que ralentiza al primer enemigo alcanzado, antes de seguir su trayectoria. A partir de ahí, si golpea un muro, el objetivo inicial queda aturdido. Si golpea a otro enemigo, los dos sufren el efecto.",
-            "cover": "../img/Bardo.webp"
-        },
-        {
-            "id": 4,
-            "name": "ELISE",
-            "img": "../img/Elise_Render.webp",
-            "description": "La dama Elise nació hace muchos siglos en el seno de la casa Kythera, una antigua y poderosa familia de Noxus, donde descubrió muy pronto lo útil que resulta la belleza para influir sobre las mentes débiles.",
-            "cover": "../img/Elise_0.jpg"
-        },
-        {
-            "id": 5,
-            "name": "GAREN",
-            "img": "../img/Garen_Render.webp",
-            "description": "Garen aumenta de forma pasiva su armadura y su resistencia mágica al asesinar a enemigos. También puede activar esta habilidad para obtener un escudo y una mejora de tenacidad durante un breve periodo de tiempo, seguido de una reducción de daño menor que dura más",
-            "cover": "../img/garen.jpg"
-        },
-        {
-            "id": 6,
-            "name": "IRELIA",
-            "img": "../img/Irelia_Render.webp",
-            "description": "Irelia lanza una gran cantidad de cuchillas que se desplazan hacia afuera después de alcanzar a un campeón enemigo. Los enemigos impactados por las cuchillas reciben daño y quedan marcados. Después, las cuchillas forman un muro que inflige daño y ralentiza a los campeones que lo atraviesan",
-            "cover": "../img/Irelia.jpg"
-        },
-        {
-            "id": 7,
-            "name": "JAYCE",
-            "img": "../img/Jayce_Render.webp",
-            "description": "Jayce es un brillante inventor que comprometió su vida a la defensa de Piltóver y a su firme búsqueda del progreso. Con su martillo hextech transformable en mano, Jayce utiliza su fuerza, valor y considerable inteligencia para proteger su ciudad natal.",
-            "cover": "../img/Jayce.jpg"
-        },
-        {
-            "id": 8,
-            "name": "KARMA",
-            "img": "../img/Karma_Render.webp",
-            "description": "Karma lanza una bola de energía espiritual que explota e inflige daño al golpear a una unidad enemiga. Bonificación de Mantra: Además de la explosión, Mantra aumenta el poder destructivo de Llama interior, lo que crea una onda abrasiva que inflige daño tras unos instantes.",
-            "cover": "../img/Karma.jpg"
-        },
-        {
-            "id": 9,
-            "name": "KATARINA",
-            "img": "../img/Katarina_Render.webp",
-            "description": "Decisiva en su juicio y letal en combate, Katarina es una asesina noxiana del más alto calibre. Como la hija mayor del legendario General Du Couteau, ella hizo que reconocieran sus talentos con agiles muertes a sus enemigos desprevenidos.",
-            "cover": "../img/Katarina.jpg"
-        }
-    ],
-    "ligas":[
-        {
-            "id": 0,
-            "name":"Plata",
-            "description":"Aquí están la mayoría de jugadores de partidas clasificatorias. Al tener mayor conocimiento del juego, las partidas muestran mejores jugadas y dinámicas de equipo, aunque no se domina del todo las shotcalls y macrogame.",
-            "logo":"../img/Liga_Plata.png"
-        },
-        {
-            "id": 1,
-            "name":"Oro",
-            "description":"Se trata de una buena vara de medir la habilidad, conocimiento y destreza del jugador. La inclusión de recompensas al final de la temporada es un gran incentivo para todos los jugadores mundiales. Destacan los Banner de Perfil, marco de carga, icono de invocador y aspectos especiales para jugadores Oro al terminar la temporada.",
-            "logo":"../img/Liga_Oro.png"
-        },
-        {
-            "id": 2,
-            "name":"Platino",
-            "description":"Ya nos acercamos al máximo nivel de jugadores, por lo que esta liga es considerada las puertas a las ligas semi profesionales. Las recompensas siguen creciendo al finalizar la temporada.",
-            "logo":"../img/Liga_Platino.png"
-        },
-        {
-            "id": 3,
-            "name":"Diamante",
-            "description":"Todos sus jugadores conocen ampliamente el juego, habiendo jugado en todos sus modos y con la mayoría de campeones, poderes y combos disponibles. Se trata además de la última Liga sin límite de jugadores, en esta se forjan los jugadores profesionales.",
-            "logo":"../img/Liga_Diamante.png"
-        }
-    ],
-    "experiencias": []
+  "personajes": [
+    {
+      "id": 0,
+      "name": "ASHE",
+      "img": "../img/Ashe_Render.webp",
+      "description": "Ashe dispara un proyectil de hielo en línea recta. Si la flecha impacta contra un campeón enemigo, le inflige daño y aturde según la distancia que haya recorrido la flecha. Además, las unidades enemigas circundantes reciben daño y se ralentizan.",
+      "cover": "../img/Ashe_0.jpg"
+    },
+    {
+      "id": 1,
+      "name": "APHELIOS",
+      "img": "../img/Aphelios_Render.webp",
+      "description": "Aphelios tiene acceso a un arsenal de 5 Armas de Piedra Lunar, creadas por su hermana Alune. Equipa dos armas a la vez, una como su arma principal y otra como su arma secundaria. Cada arma tiene un ataque básico único y un efecto pasivo. Crescendum en cola en la reserva.",
+      "cover": "../img/Aphelios.jpg"
+    },
+    {
+      "id": 2,
+      "name": "AZIR",
+      "img": "../img/Azir_Render.webp",
+      "description": "Azir, emperador de Shurima en un pasado remoto, fue un hombre orgulloso que estuvo a punto de alcanzar la inmortalidad. Dominado por la arrogancia, fue traicionado y asesinado en la hora de su mayor triunfo. Pero ahora, milenios después, renació como un ser Ascendido de inmenso poder.",
+      "cover": "../img/Azir.jpg"
+    },
+    {
+      "id": 3,
+      "name": "BARDO",
+      "img": "../img/Bard_Render.webp",
+      "description": "Bardo dispara un proyectil que ralentiza al primer enemigo alcanzado, antes de seguir su trayectoria. A partir de ahí, si golpea un muro, el objetivo inicial queda aturdido. Si golpea a otro enemigo, los dos sufren el efecto.",
+      "cover": "../img/Bardo.webp"
+    },
+    {
+      "id": 4,
+      "name": "ELISE",
+      "img": "../img/Elise_Render.webp",
+      "description": "La dama Elise nació hace muchos siglos en el seno de la casa Kythera, una antigua y poderosa familia de Noxus, donde descubrió muy pronto lo útil que resulta la belleza para influir sobre las mentes débiles.",
+      "cover": "../img/Elise_0.jpg"
+    },
+    {
+      "id": 5,
+      "name": "GAREN",
+      "img": "../img/Garen_Render.webp",
+      "description": "Garen aumenta de forma pasiva su armadura y su resistencia mágica al asesinar a enemigos. También puede activar esta habilidad para obtener un escudo y una mejora de tenacidad durante un breve periodo de tiempo, seguido de una reducción de daño menor que dura más",
+      "cover": "../img/garen.jpg"
+    },
+    {
+      "id": 6,
+      "name": "IRELIA",
+      "img": "../img/Irelia_Render.webp",
+      "description": "Irelia lanza una gran cantidad de cuchillas que se desplazan hacia afuera después de alcanzar a un campeón enemigo. Los enemigos impactados por las cuchillas reciben daño y quedan marcados. Después, las cuchillas forman un muro que inflige daño y ralentiza a los campeones que lo atraviesan",
+      "cover": "../img/Irelia.jpg"
+    },
+    {
+      "id": 7,
+      "name": "JAYCE",
+      "img": "../img/Jayce_Render.webp",
+      "description": "Jayce es un brillante inventor que comprometió su vida a la defensa de Piltóver y a su firme búsqueda del progreso. Con su martillo hextech transformable en mano, Jayce utiliza su fuerza, valor y considerable inteligencia para proteger su ciudad natal.",
+      "cover": "../img/Jayce.jpg"
+    },
+    {
+      "id": 8,
+      "name": "KARMA",
+      "img": "../img/Karma_Render.webp",
+      "description": "Karma lanza una bola de energía espiritual que explota e inflige daño al golpear a una unidad enemiga. Bonificación de Mantra: Además de la explosión, Mantra aumenta el poder destructivo de Llama interior, lo que crea una onda abrasiva que inflige daño tras unos instantes.",
+      "cover": "../img/Karma.jpg"
+    },
+    {
+      "id": 9,
+      "name": "KATARINA",
+      "img": "../img/Katarina_Render.webp",
+      "description": "Decisiva en su juicio y letal en combate, Katarina es una asesina noxiana del más alto calibre. Como la hija mayor del legendario General Du Couteau, ella hizo que reconocieran sus talentos con agiles muertes a sus enemigos desprevenidos.",
+      "cover": "../img/Katarina.jpg"
+    }
+  ],
+  "ligas": [
+    {
+      "id": 0,
+      "name": "Plata",
+      "description": "Aquí están la mayoría de jugadores de partidas clasificatorias. Al tener mayor conocimiento del juego, las partidas muestran mejores jugadas y dinámicas de equipo, aunque no se domina del todo las shotcalls y macrogame.",
+      "logo": "../img/Liga_Plata.png"
+    },
+    {
+      "id": 1,
+      "name": "Oro",
+      "description": "Se trata de una buena vara de medir la habilidad, conocimiento y destreza del jugador. La inclusión de recompensas al final de la temporada es un gran incentivo para todos los jugadores mundiales. Destacan los Banner de Perfil, marco de carga, icono de invocador y aspectos especiales para jugadores Oro al terminar la temporada.",
+      "logo": "../img/Liga_Oro.png"
+    },
+    {
+      "id": 2,
+      "name": "Platino",
+      "description": "Ya nos acercamos al máximo nivel de jugadores, por lo que esta liga es considerada las puertas a las ligas semi profesionales. Las recompensas siguen creciendo al finalizar la temporada.",
+      "logo": "../img/Liga_Platino.png"
+    },
+    {
+      "id": 3,
+      "name": "Diamante",
+      "description": "Todos sus jugadores conocen ampliamente el juego, habiendo jugado en todos sus modos y con la mayoría de campeones, poderes y combos disponibles. Se trata además de la última Liga sin límite de jugadores, en esta se forjan los jugadores profesionales.",
+      "logo": "../img/Liga_Diamante.png"
+    }
+  ],
+  "experiencias": [
+    {
+      "name": "wqqwdqw",
+      "age": "qdqwdqwd",
+      "experience": "qdqwdqwwd",
+      "id": 4
+    },
+    {
+      "name": "Andreina",
+      "age": "16",
+      "experience": "qdqwqwdqw",
+      "id": 5
+    },
+    {
+      "name": "Andreina",
+      "age": "25",
+      "experience": "wefwefwef",
+      "id": 7
+    }
+  ]
 }
